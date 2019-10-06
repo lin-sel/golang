@@ -96,4 +96,20 @@ func main() {
 	// (3) Shorthand Declaration
 	profession := "Developer"
 	fmt.Println(profession)
+
+	// var block
+	// this is shorthand declaration of varible in bulk
+
+	var (
+		data    int64 = 98
+		status2 bool  = false
+	)
+
+	fmt.Println(data, status2)
+
+	// Another Style to declare multiple variable
+
+	var a, b, c, d int16 = 12, 13, 14, 15
+	fmt.Println(a, b, c, d)
+
 }
