@@ -112,4 +112,14 @@ func main() {
 	var a, b, c, d int16 = 12, 13, 14, 15
 	fmt.Println(a, b, c, d)
 
+	// Type Casting----------------------------------------------------------------------------------------------------------------------------------------------------
+
+	// converting from one datatype to another datatype.
+
+	var i int16 = 120
+	var j int32 = 130
+
+	// fmt.Println(i + j)  this sample of code will through error becasue golang is strong typed language. for that we have to convert to same datatype.
+	fmt.Println(i + int16(j)) // Now this will worked.
+
 }
