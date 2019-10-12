@@ -23,4 +23,10 @@ func main() {
 	}
 
 	fmt.Println(p1)
+
+	// Assign Pointer to user define type
+	point := &p1
+
+	// Accessing Field using pointer
+	fmt.Println(point.Age)
 }
